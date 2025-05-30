@@ -25,14 +25,14 @@
       "type":"multiple_choice",
       "answers":[
          {
-            "answer":"A code cell contains text descriptions to help describe the context for the code",
+            "answer":"A markdown cell contains formatted text, images, and links to provide documentation and context",
             "correct":true,
             "feedback":"Yes, this is a good description of a markdown cell."
          },
          {
             "answer":"A markdown cell contains coded data only readable by the computer",
             "correct":false,
-            "feedback":"No, At first it may be hard to decipher but code cells contain precise instructions to the computer in readable format."
+            "feedback":"No, markdown cells are written in plain text."
          },
          {
             "answer":"A markdown cell contains 1 or more lines of computer code directing the computer to manipulate and display data",

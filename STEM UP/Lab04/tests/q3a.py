@@ -1,30 +1,32 @@
 test = {
-  'name': 'Question 3',
+  'name': '',
   'points': 1,
   'suites': [
     {
       'cases': [
-          {
-            'code': r"""
-             >>> # Need to define your name at top of sheet
-             >>> # rerun top cells to make sure defined
-             >>> type(name) == str
-             True
-             """
+        {
+          'code': r"""
+          >>> # Make sure your function follows the correct function format/syntax, see above
+          >>> callable(f)
+          True
+          """,
+          'hidden': False,
+          'locked': False
         },
         {
-            'code': r"""
-            >>> # Need create Data Table using original COVID dataand where method
-            >>> from datascience import *
-            >>> type(Late2020) == tables.Table
-            True
-            """
+          'code': r"""
+          >>> # Your function does not return the correct value, check the multiplication and addition/subtraction in your function definition.
+          >>> f(4) == 13
+          True
+          """,
+          'hidden': False,
+          'locked': False
         }
       ],
       'scored': True,
       'setup': '',
       'teardown': '',
       'type': 'doctest'
-   }
+    }
   ]
 }
